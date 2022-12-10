@@ -111,16 +111,16 @@ void linkedlistMenu()
     LinkedList list = LinkedList();
     int option, i;
 
-    for (i = 50000; i > 0; i--)
-    {
-        list.add(i);
-        list.addHead(i);
-    }
-    for (i = 50000; i > 0; i--)
-    {
-        list.remove();
-        list.removeTail();
-    }
+    // for (i = 50000; i > 0; i--)
+    // {
+    //     list.add(i);
+    //     list.addHead(i);
+    // }
+    // for (i = 50000; i > 0; i--)
+    // {
+    //     list.remove();
+    //     list.removeTail();
+    // }
 
     do {
         cout << "\nEscolha: ";
